@@ -1,0 +1,109 @@
+Name: UI
+Id: g=db579bfcdaae854f748ccfa18e96c3dd
+Type: FolderType
+Children:
+- Name: DefaultStyleSheet
+  Id: g=18954a34b1f4d84bb0ad7ace742ed726
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Id: g=d842eea4f08f00c940111042aeb179c8
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=9ddc5648b8c29fd21110090fb9790ead
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=fe390084e8b36ed63bb2aa98bcb6030d
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=567f92ce7337ce72a41230e6e71cfa9a
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Id: g=6b65a84d7c5e7456a1cc8381c2a56a8e
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Id: g=b3a8f05e805a253fb82c31d1d41d9342
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=3e3e543fb78aa8e740808e6b53bd4d1b
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=f897e86cddc6474726bf6de2de73010d
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=4b5c2e10442b13ea233b1bd65c8fd49c
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=047b63f6688839939cc738f6b350613c
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Id: g=984089bd918d77023f15328f001aadf9
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=2d55b2172bf17a3897bb8fa9d75d3027
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=2cac0d730e3ff1a5aacd215cd0c17230
+    Type: HistogramChartStyle
+- Name: NativePresentationEngine
+  Id: g=4f348c4f940594e6af665b568bbddbae
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Id: g=184c1fbc81dac36e5e295b96bc90ac02
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Id: g=72169264270a6168b8a576388855c893
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"40e89d71bdfafb9a6be1d05ae25e2993","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=837f2d76532c19e5a708a87aebb6f43b
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":12,"Namespace":2}
+  - Name: StyleSheet
+    Id: g=949698d3011c602051d9773f864ddf26
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"18954a34b1f4d84bb0ad7ace742ed726","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=9242797e25dde8ffe303fdd1e1b9b8ac
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":447,"Namespace":2}
+  - Name: StartingUser
+    Id: g=120055543100e7e2b90a01303a3d0ba1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"Id":46,"Namespace":1}
+    Children:
+    - Name: Kind
+      Id: g=65e66a311f69f10ed24b0b761b5504db
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":14,"Namespace":1}
+  - Name: Sessions
+    Id: g=194056655d1171b5a3194b5dce71f3be
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=40e89d71bdfafb9a6be1d05ae25e2993
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=1bedf58bfb8b07ffb6f58f30106c2028
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=a95a4808ea5bda0665a306701b66cec2
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
